@@ -66,3 +66,17 @@ Tipos de anclaje:
 - `https://www.enlace.com` -> Nos dirige a otra web.
 
 ![HyperLink](imgs_readme/hyperlinks.png)
+
+## Elementos de estructura
+
+- `<header> </header>`: Representa la cabecera del contenido.
+- `<nav> </nav>`: Indica la barra de navegación.
+- `<article> </article>`: Es un articulo.
+- `<main> </main>`: Contenido principal de la página.
+- `<footer> </footer>`: Pie de página.
+
+## ¿Qué es el HTML Semántico?
+
+Esto engloba las etiquetas HTML que transmiten el significado de su contenido. Ayuda a los buscadores sobre la funcionalidad e importancia de las secciones de tus páginas.
+
+![HTML Semantico](imgs_readme/html-semantic.png)
