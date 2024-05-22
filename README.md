@@ -7,7 +7,7 @@ Este README servirá para tomar apuntes de cada lección.
 
 Cuando buscamos una página o navegamos por internet siempre se realiza una petición a un servidor, este servidor según que tipo de página sea la que estés buscando se encargará de darte los archivos HTML, CSS Y JavaScript necesarios para que el navegador te pueda mostrar la página.
 
-Existen dos lados diferentes del desarrollo web, la parte Fron-end y la parte Back-end.
+Existen dos lados diferentes del desarrollo web, la parte Front-end y la parte Back-end.
 
 - El Front-end se encarga de la parte visual, la parte del navegador.
 - El Back-end es la parte del servidor, la que proporciona y maneja los datos.
@@ -19,7 +19,7 @@ En este curso veremos principalmente el Front-end que está conformado por HTML,
 <p>HTML significa Lenguaje de marcado de Hipertexto.<p>
 Este lenguaje se utiliza para describir y estructurar el contenido de una página web. Sus elementos consisten en parrafos, enlaces, titulos, imagenes, videos, etc.
 
-Los navegadores solo entiendo HTML y renderizan código HTML como páginas web.
+Los navegadores solo entienden HTML y renderizan código HTML como páginas web.
 
 Anatomía de un elemento HTML.
 ![Anatomy element](imgs_readme/anatomy-element.png)
@@ -80,3 +80,67 @@ Tipos de anclaje:
 Esto engloba las etiquetas HTML que transmiten el significado de su contenido. Ayuda a los buscadores sobre la funcionalidad e importancia de las secciones de tus páginas.
 
 ![HTML Semantico](imgs_readme/html-semantic.png)
+
+## CSS - ¿Qué es CSS?
+
+Css es un lenguaje de estilos en cascada, es uno de los lenguajes principales del desarrollo web, es la que define el estilo y presentación de la página web.
+
+Css consiste en un monton de propiedades que nos permiten dar formato al contenido html, como el estilo de fuente, colores, posición, espacio, etc.
+
+Anatomía CSS
+
+![Anatomy CSS](imgs_readme/anatomy-css.png)
+
+## En linea, interno y externo CSS.
+
+- En linea: es escribir CSS directamente en elemento.
+- Interno: es escribir CSS en el head del documento html, entre las etiquetas `<styles>`
+- Externo: Creamos un archivo externo de tipo css y usando la etiqueta `<link>`
+
+## Propiedades de tipo texto.
+
+Propiedades CSS que se les puede aplicar a elemento de tipo texto.
+
+|     Syntax     | Description                      |
+| :------------: | -------------------------------- |
+|   font-size    | Tamaño de fuente                 |
+|  font-family   | Tipo de fuente                   |
+| text-transform | Mayúscula/Minúscula              |
+|   font-style   | italic/bold/oblique              |
+|   text-align   | center/left/right                |
+|  line-height   | Separación de texto entre lineas |
+
+## Combinando selectores
+
+Podemos hacer una lista de selectores o anidamiento:
+
+Lista:
+
+![List selectors](imgs_readme/list-selectors.png)
+
+Anidamiento:
+
+![Nesting selectors](imgs_readme/nesting-selectors.png)
+
+## Clases y ID
+
+Las clases y id son selectores que nos permiten identificar un elemento html en CSS.
+
+Los ids es un atributo que debe ser único, no puede haber dos ids del mismo nombre en el mismo documento html.
+
+Las clases son normalmente utilizadas para el CSS y pueden ser repetidas, no se usan los ids.
+
+HTML
+
+Clase: `<ul class="related">` - Id: `<ul id="related">`
+
+Selector en CSS
+
+Clase: `.related` - Id: `#related`
+
+Propiedades nuevas:
+
+|   Syntax    | Description                        |
+| :---------: | ---------------------------------- |
+| font-weight | bold/normal/ligh - Grosor de texto |
+| list-style  | Estilo de la lista                 |
