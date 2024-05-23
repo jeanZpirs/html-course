@@ -144,3 +144,29 @@ Propiedades nuevas:
 | :---------: | ---------------------------------- |
 | font-weight | bold/normal/ligh - Grosor de texto |
 | list-style  | Estilo de la lista                 |
+
+## Colores
+
+### RGB
+
+Cada color es representado por una combinacion de <strong style="background-color: red; color: white; padding: 2px">RED</strong>, <strong style="background-color: green; color: white; padding: 2px">GREEN</strong> y <strong style="background-color: blue; color: white; padding: 2px">BLUE</strong>.
+
+![RGB COLOR](imgs_readme/rgb_colors.png)
+
+### Definición de colores
+
+![Defining colors](imgs_readme/defining-colors.png)
+
+### Bordes
+
+Propiedad CSS que nos permite agregar bordes a cualquier elemento html.
+
+![Border](imgs_readme/border.png)
+
+<p style="color:white; background-color: red">Nota: Una carácteristica nueva de CSS es que hay propiedades que son 1 de 4, por ejemplo border solo aplica bordes a los 4 lados del elemento.</p>
+
+## PSEUDO-CLASES
+
+Son selectores especiales que nos ayudan a obtener elementos que están en un estado en específico.
+
+![Pseuclases](imgs_readme/pseudo_class.png)
