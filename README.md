@@ -170,3 +170,28 @@ Propiedad CSS que nos permite agregar bordes a cualquier elemento html.
 Son selectores especiales que nos ayudan a obtener elementos que están en un estado en específico.
 
 ![Pseuclases](imgs_readme/pseudo_class.png)
+
+### Estilizando enlaces con Psudo-clases
+
+a:
+
+- Link: Estiliza los elementos `<a>` que tengan el atributo href.
+- Visited: Aplica estilos a los enlaces ya navegados.
+- Hover: Aplica estilos cuando el cursor está encima.
+- Active: Aplica estilo al momento de clickear el enlace.
+
+![Styling Hyperlinks](imgs_readme/styling_hyperlinks.png)
+
+## Chrome DevTool
+
+Es una herramienta del navegador que nos permite visualizar el html y el css de cada elemento, podemos editar, borrar, testear alguna que otra cosa pero no estaremos afectando en nada al código fuente.
+
+## Teoría CSS
+
+### 1 - Conflictos entre selectores.
+
+Si pensamos bien, podemos seleccionar un solo elemento de varias maneras y aplicar distintos estilos, entonces ¿cómo elige CSS que estilos aplicar?
+
+- Por prioridad:
+
+![Priority Selectors ](imgs_readme/priority_selectors.png)
