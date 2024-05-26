@@ -195,3 +195,91 @@ Si pensamos bien, podemos seleccionar un solo elemento de varias maneras y aplic
 - Por prioridad:
 
 ![Priority Selectors ](imgs_readme/priority_selectors.png)
+
+### 2 - Herencia y Selector universal
+
+Cuando tenemos elementos dentro de otro elemento html podemos aplicar la herencia en estilos, algunas propiedades son heredadas como el `font-size`, `color`, propiedades de tipo texto.
+
+El selector universal es que el selecciona a todos los elementos dentro del body, pero este selector es de muy baja prioridad por ende es fácil de sobreescribir sus estilos.
+
+### 3 - Modelo de caja de CSS
+
+El modelo de caja define como se representan los elementos y su tamaño en la página web.
+Esta caja compone de muchas partes:
+
+- Contenido -> El contenido en si, texto, imagenes, etc.
+- Relleno (Padding) -> Espacio invisible al rededor del contenido pero que aún está dentro del elemento.
+- Margen -> Espacio fuera del elemento en si, que hace una separación con los demás elementos.
+- Borde -> Borde que rodea el elemento.
+- Area de relleno -> De todo el elemento, que suele ser pintada por un fondo de color o imagen.
+
+![Box Model CSS](imgs_readme/box_model_css.png)
+
+El ancho o alto que le apliquemos al elemento no es realmente su verdadero alto y ancho, suman tambien los bordes y el padding.
+Pero este es un comportamiento por defecto de CSS y se puede cambiar.
+
+![element_hw](imgs_readme/element_hw.png)
+
+## Usando margenes y paddings
+
+Podemos utilizar la propiedad `padding`para poder utilizar los rellenos en un elemento, también usamos `margin` para pode usar los margenes.
+
+Existe el colapso de margenes, es cuando dos elementos se separan cada quien por su propio margen, entonces uno pensaría que esa separación es una suma de dichos margenes pero no, solo es un margen y suele ser el del mayor margen.
+
+![Padding-Margin](imgs_readme/padding_margin.png)
+
+## Añadiendo tamaño - Ancho y Alto
+
+Podemos modificar las dimensiones de los elementos con las propiades de css `width` y `height`.
+
+Trucos: - `margin: 0 auto` -> Para centrar elementos con dimensiones definidas.
+
+## Teoría CSS
+
+### 4 - Tipos de modelo de caja
+
+Existen tres tipos de modelo de caja.
+
+- Inline -> Son elementos que ocupan el espacio necesario para su contenido, no crean saltos de linea. Su problema es que el padding y margin no aplica de manera vertical, solo horizontal así como tampoco le aplican las modificaciones de dimensiones de ancho y alto.
+
+![Element Inline](imgs_readme/inline_element.png)
+
+- Bloque -> Los elementos de tipo bloque ocupan todo el espacio que pueden ocupar horizontalmente, creando saltos de linea, apilando a los elementos verticalmente.
+
+![Element in block](imgs_readme/block_element.png)
+
+- Inline Block -> Son una combinación de lo mejor de los otros dos, se ve como si fuera elemento en linea, ocupa solo lo necesario, no causa saltos en linea pero el modelo de caja es de bloque, podemos usar padding, margin y dimensionar su tamaño como si fuese un modelo de caja de bloque.
+
+![Element inline block](imgs_readme/inline-block.png)
+
+### 5 - Posición Absoluta
+
+De forma predeterminada tenemos el flujo de los elementos que va de uno sobre otro, en orden a como está codificado: `position: relative`.
+
+Pero podemos sacar los elementos de ese flujo predeterminado con `position: absolute`, esto hace que dicho elemento no impacte en los demás elementos como si estuviera encima de ellos y para mover el elemento que está fuera del flujo podemos usar las propiedades `top`,`bottom`, `left`, `right`.
+
+Es obligado poner el elemento padre en `position: relative` porque si el elemento no está dentro de un elemento en `position: relative` el elemento en `position: absolute` se moverá según el viewport.
+
+![Position Absolute](imgs_readme/position_absolute.png)
+
+## Pseudo Elementos
+
+Son elementos que no aparecen en `HTML` pero que podemos seleccionar y estilizar en CSS.
+
+A diferencia de las pseudo-clases, estos se seleccionan con `::`
+
+![pseudo element](imgs_readme/pseudo_element.png)
+
+- Selector Adyacente `+`: selecciona el elemento hermano continuo. `h3 + p`
+
+## Debugeando.
+
+A veces existen errores cometidos por nosotros sin darnos cuenta y que debemos arreglar.
+
+En HTML hay unas herramientas que nos pueden ayudar a encontrar los errores que no podamos ver a simple vista.
+
+- [HTML Validator](https://validator.w3.org/) -> Verifica que no haya elementos sin cierre, atributos mal escritos y todo tipo de errores.
+
+- [Diffchecker](https://www.diffchecker.com/) -> Compara el documentos html y nos da las diferencias.
+
+En CSS podemos usar la DevTool del navegador para saber si hemos escrito mal una propiedad o que estilos se aplican y el por qué.
