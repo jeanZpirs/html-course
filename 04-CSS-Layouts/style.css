@@ -1,23 +1,23 @@
+/* Selector universal */
 * {
-  /* border-top: 10px solid #1098ad; */
   margin: 0;
   padding: 0;
 }
 
-/* PAGE SECTIONS */
 body {
   color: #444;
   font-family: sans-serif;
-
   border-top: 10px solid #1098ad;
-  position: relative;
 }
 
 .container {
-  width: 800px;
-  /* margin-left: auto;
-  margin-right: auto; */
+  width: 700px;
+
+  /*  margin-left:auto;
+  margin-right:auto; */
+
   margin: 0 auto;
+  position: relative;
 }
 
 .main-header {
@@ -27,12 +27,10 @@ body {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
-  /* height: 80px; */
 }
 
 nav {
   font-size: 18px;
-  /* text-align: center; */
 }
 
 article {
@@ -41,20 +39,33 @@ article {
 
 .post-header {
   margin-bottom: 40px;
-  /* position: relative; */
 }
 
 aside {
   background-color: #f7f7f7;
+
+  /* border: 5px solid #1098ad; */
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  /* padding-top: 50px;
+
+  /*  padding-top: 50px;
   padding-bottom: 50px; */
   padding: 50px 0;
+
   width: 500px;
 }
 
-/* SMALLER ELEMENTS */
+/* Smaller elements */
+
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+}
+
 h1,
 h2,
 h3 {
@@ -98,21 +109,19 @@ ol {
 
 li {
   font-size: 20px;
+}
+
+li:not(:last-child) {
   margin-bottom: 10px;
-  /* display: inline; */
 }
 
-li:last-child {
-  margin-bottom: 0;
-}
-
-/* footer p {
+footer p {
   font-size: 16px;
-} */
+}
 
-/* article header p {
+article header p {
   font-style: italic;
-} */
+}
 
 #author {
   font-style: italic;
@@ -128,21 +137,13 @@ li:last-child {
   font-weight: bold;
 }
 
-/* ul {
-  list-style: none;
-} */
+ul {
+  /* list-style: none; */
+}
 
 .related {
   list-style: none;
 }
-
-body {
-  /* background-color: orangered; */
-}
-
-/* .first-li {
-  font-weight: bold;
-} */
 
 li:first-child {
   font-weight: bold;
@@ -153,22 +154,27 @@ li:last-child {
 }
 
 li:nth-child(even) {
-  /* color: red; */
+  /*    color: red; */
 }
 
-/* Misconception: this won't work! */
+/* Misconception this won't work! */
 article p:first-child {
   color: red;
 }
 
 /* Styling links */
+
+a {
+  color: #1098ad;
+}
+
 a:link {
   color: #1098ad;
   text-decoration: none;
 }
 
 a:visited {
-  /* color: #777; */
+  /* color: #777 */
   color: #1098ad;
 }
 
@@ -182,20 +188,32 @@ a:active {
   background-color: black;
   font-style: italic;
 }
-/* LVHA */
+
+/* Resolving conflicts */
+
+/* #copyright {
+    color: red
+}
+
+.copyright {
+    color: blue
+}
+
+.text {
+    color: yellow
+}
+
+footer p { 
+    color: green
+} */
 
 .post-img {
   width: 100%;
   height: auto;
 }
 
-nav a:link {
-  /* background-color: orangered;
-  margin: 20px;
-  padding: 20px;
-
-  display: block; */
-
+nav a:link,
+nav a:visited {
   margin-right: 30px;
   margin-top: 10px;
   display: inline-block;
@@ -211,11 +229,14 @@ button {
   cursor: pointer;
 
   position: absolute;
-  /* top: 50px;
+  /*   top: 50px;
   left: 50px; */
+
   bottom: 50px;
-  right: 50px;
+  right: 0;
 }
+
+/* PSEUDO ELEMENTS */
 
 h1::first-letter {
   font-style: normal;
@@ -223,15 +244,13 @@ h1::first-letter {
 }
 
 h3 + p::first-line {
-  /* color: red; */
 }
 
 h2 {
-  /* background-color: orange; */
   position: relative;
 }
 
-h2::before {
+h2::after {
   content: "TOP";
   background-color: #ffe70e;
   color: #444;
@@ -239,29 +258,37 @@ h2::before {
   font-weight: bold;
   display: inline-block;
   padding: 5px 10px;
+
   position: absolute;
   top: -10px;
   right: -25px;
 }
 
-/* Resolving conflicts */
-/* #copyright {
-  color: red;
+/* FLOATS */
+
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+.author {
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
-.copyright {
-  color: blue;
+h1 {
+  float: left;
+}
+nav {
+  float: right;
 }
 
-.text {
-  color: yellow;
+.clear {
+  clear: both;
 }
 
-footer p {
-  color: green !important;
-} */
-
-/* nav a:link,
-nav p {
-  font-size: 18px;
-} */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}

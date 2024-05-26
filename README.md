@@ -14,6 +14,8 @@ Existen dos lados diferentes del desarrollo web, la parte Front-end y la parte B
 
 En este curso veremos principalmente el Front-end que está conformado por HTML, CSS y JavaScript.
 
+# Fundamentos HTML
+
 ## ¿Qué es HTML?
 
 <p>HTML significa Lenguaje de marcado de Hipertexto.<p>
@@ -80,6 +82,8 @@ Tipos de anclaje:
 Esto engloba las etiquetas HTML que transmiten el significado de su contenido. Ayuda a los buscadores sobre la funcionalidad e importancia de las secciones de tus páginas.
 
 ![HTML Semantico](imgs_readme/html-semantic.png)
+
+# Fundamentos CSS
 
 ## CSS - ¿Qué es CSS?
 
@@ -283,3 +287,35 @@ En HTML hay unas herramientas que nos pueden ayudar a encontrar los errores que 
 - [Diffchecker](https://www.diffchecker.com/) -> Compara el documentos html y nos da las diferencias.
 
 En CSS podemos usar la DevTool del navegador para saber si hemos escrito mal una propiedad o que estilos se aplican y el por qué.
+
+# Diseños: Floats, Flexbox y CSS
+
+## Los 3 caminos para contruir un diseño
+
+¿Qué significa diseño?
+
+El diseño es la forma en como el contenido de nuestra web se colocan y organizan. Esta nos brinda una estructura visual de la pagina.
+
+Existen dos tipos de diseño:
+
+- Diseño de página: Esto es de lo que estabamos hablando sobre la colocación del contenido de alguna forma.
+
+![Page Layout](imgs_readme/page-layout.png)
+
+- Diseño de componente: El propio contenido también tiene su diseño, colocación y organización de elementos.
+
+![Component Layout](imgs_readme/component-layout.png)
+
+Para construir estos diseños tenemos 3 maneras en CSS:
+
+- Floats: Es la vieja forma de crear diseños usando la propiedades `float` pero está siendo reemplazada rapidamente.
+
+- Flex-box: Es una manera moderna de crear diseños, podemos organizar elementos de forma vertical <strong>o</strong> horizontal sin usar float, perfecto para diseño de componentes.
+
+- CSS Grid: También es un manera moderna en la que puedes organizar los elementos de forma horizontal <strong>y</strong> vertical, perfecto para diseños de página.
+
+## Usando Floats
+
+Cuando usas `float` en un elemento, este es sacado del flujo normal de elementos como si fuese `position: absolute` pero con el `float` se respeta su espacio, quiere decir que los demás elementos se mostrarán al rededor del elemento en `float` pero su modelo de caja de los elementos están detrás del elemento `float`.
+
+Hay algunos problemas con el float, a veces queremos que los hijos de un contenedor lo pongamos en `float` y ocurre el problema de que el contenedor pierde su alto ya que los hijos fueron sacados del flujo.
