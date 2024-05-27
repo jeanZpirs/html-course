@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -35,11 +35,36 @@
       .container {
         /* STARTER */
         font-family: sans-serif;
-        background-color: #ddd;
-        font-size: 40px;
+        background-color: #c0c0c0;
+        font-size: 32px;
         margin: 40px;
 
         /* FLEXBOX */
+
+        display: flex;
+        /* gap: 20px; - Space between elements*/
+        /* justify-content: space-between; - Horizontal */
+        /* align-items: stretch; - Vertical */
+        /* flex-direction: column; - Define the main axis */
+        /* flex-wrap: wrap; - To allow items to wrap into a new line if they are too large */
+        /* align-content: center; Only applies when there are multiple lines (flex-wrap: wrap) */
+
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+      }
+
+      .el--1 {
+        align-self: flex-start;
+        order: -2;
+      }
+
+      .el--5 {
+        align-self: stretch;
+      }
+
+      .el--6 {
+        order: -1;
       }
     </style>
   </head>

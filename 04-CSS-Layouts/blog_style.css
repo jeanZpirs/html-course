@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -31,6 +32,7 @@ body {
   color: #6e6e6e;
   font-weight: bold;
   margin-bottom: 20px;
+  font-size: 14px;
 }
 
 .description {
@@ -50,13 +52,13 @@ body {
   text-decoration: none;
 }
 
-.details {
+.title-details {
   font-size: 24px;
   margin-bottom: 18px;
 }
 
 .list {
-  font-size: 18px;
+  font-size: 16px;
   list-style: square;
   margin-left: 20px;
   margin-bottom: 20px;
@@ -99,8 +101,8 @@ body {
 
 .square {
   display: inline-block;
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
   margin-bottom: 20px;
 }
 
@@ -129,4 +131,45 @@ body {
 
 .brown {
   background-color: #ffa200;
+}
+
+/* Float */
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.img-product {
+  float: left;
+  margin-right: 40px;
+}
+
+.information {
+  float: left;
+  width: 243px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.details {
+  float: right;
+  width: 243px;
+  margin-top: 20px;
+}
+
+.price {
+  float: left;
+}
+
+.shipping {
+  float: right;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.description {
+  clear: both;
+  margin-bottom: 10px;
 }

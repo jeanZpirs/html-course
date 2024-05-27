@@ -319,3 +319,26 @@ Para construir estos diseños tenemos 3 maneras en CSS:
 Cuando usas `float` en un elemento, este es sacado del flujo normal de elementos como si fuese `position: absolute` pero con el `float` se respeta su espacio, quiere decir que los demás elementos se mostrarán al rededor del elemento en `float` pero su modelo de caja de los elementos están detrás del elemento `float`.
 
 Hay algunos problemas con el float, a veces queremos que los hijos de un contenedor lo pongamos en `float` y ocurre el problema de que el contenedor pierde su alto ya que los hijos fueron sacados del flujo.
+
+Un truco para poder solucionar este problema es crear una clase con estas propiedades y ponerlas en el elemento contenedor en cuestión.
+
+![Float Solution](imgs_readme/float_solution.png)
+
+## Boxing-sizing: border-box
+
+Con la caja predeterminada de CSS, el ancho o alto total era la suma de su paddings y su contenido.
+
+Con `box-sizing: border-box` cambiamos ese comportamiento, cuando le asignamos el ancho o alto a un elemento, ese elemento tendrá ese tamaño haciendo que el contenido se adapte al tamaño del padding.
+
+## Introducción a Flex-box
+
+Flebox es un método de diseño de página para compaginar elementos en filas o columnas.
+
+Teniendo un contenedor con elementos, podemos darle la propiedad `display: flex` y automaticamente los elementos se pondrán uno al lado de otro, con otras propiedades específicas podemos centrar los elementos:
+
+- `align-items: center`
+- `justify-content: center`
+
+Gracias a Flex-Box es mucho más fácil centrar, colocar uno al lado de otro y dividir elementos. Flex-box es el perfecto sustituto de los floats permitiendo escribir codigo más limpio y claro.
+
+![Flex Box Property](imgs_readme/flex-box.png)
