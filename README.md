@@ -342,3 +342,19 @@ Teniendo un contenedor con elementos, podemos darle la propiedad `display: flex`
 Gracias a Flex-Box es mucho más fácil centrar, colocar uno al lado de otro y dividir elementos. Flex-box es el perfecto sustituto de los floats permitiendo escribir codigo más limpio y claro.
 
 ![Flex Box Property](imgs_readme/flex-box.png)
+
+### Propiedad - Flex
+
+Flex tiene 3 propiedades importantes que modifican el comportamiento del elemento hijo (flex-item).
+
+- `flex-grow: 0`
+- `flex-shrink: 1`
+- `flex-basis: auto`
+
+- Flex-basis: Por default es `auto`, con esta propiedad podemos indicar el ancho que tendrá el elemento hijo (flex-item).
+
+- Flex-shrink: Por default es `1`, cuando es `1` indica que el elemento debe respetar el contenedor, o sea que no sobrepasará el ancho del contenedor, en caso sea `0`, los elementos ocuparán el ancho que se les puso con `flex-basis`.
+
+- Flex-grow: Por default es `0`, pero al colocar la propiedad en `1`, los elementos ocuparán todo el espacio que haya en el contenedor, en caso haya un elemento con `grow: 1` y otro elemento con `grow: 2`, entonces el elemento con el `grow` mayor ocupará más espacio del contenedor.
+
+![flex-propertys](imgs_readme/flex-propertys.png)

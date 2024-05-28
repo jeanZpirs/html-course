@@ -50,10 +50,7 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
 
-  
   padding: 50px 40px;
-
-
 }
 
 /* Smaller elements */
@@ -146,7 +143,6 @@ ul {
 .related {
   list-style: none;
   margin-left: 0;
-
 }
 
 li:first-child {
@@ -218,13 +214,7 @@ footer p {
 
 nav a:link,
 nav a:visited {
-  margin-right: 30px;
-  margin-top: 10px;
   display: inline-block;
-}
-
-nav a:link:last-child {
-  margin-right: 0;
 }
 
 button {
@@ -270,7 +260,7 @@ h2::after {
 
 /* FLOATS */
 
-.author-img {
+/* .author-img {
   float: left;
   margin-bottom: 20px;
 }
@@ -311,4 +301,49 @@ aside {
 footer {
   background-color: yellow;
   clear: both;
+} */
+
+/* Flex */
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 24px;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.author {
+  margin: 0;
+}
+
+.related-post {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.related-link:link {
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.related-author {
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
 }
