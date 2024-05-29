@@ -358,3 +358,13 @@ Flex tiene 3 propiedades importantes que modifican el comportamiento del element
 - Flex-grow: Por default es `0`, pero al colocar la propiedad en `1`, los elementos ocuparán todo el espacio que haya en el contenedor, en caso haya un elemento con `grow: 1` y otro elemento con `grow: 2`, entonces el elemento con el `grow` mayor ocupará más espacio del contenedor.
 
 ![flex-propertys](imgs_readme/flex-propertys.png)
+
+## CSS Grid
+
+Es la formá más moderna de crear layouts de páginas web, es muy completa y sencilla de usar.
+
+Para setear un `grid` se debe colocar el display en `grid` e indicar cuantas columnas o filas queremos que haya en el grid.
+
+Los unicos separadores, creadores de espacio entre los elementos son los `gap`, `column-gap` y `row-gap`.
+
+![css-grid-code](imgs_readme/css-grid-code.png)

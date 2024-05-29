@@ -135,7 +135,7 @@ body {
 
 /* Float */
 
-.clearfix::after {
+/* .clearfix::after {
   content: "";
   display: block;
   clear: both;
@@ -172,4 +172,34 @@ body {
 .description {
   clear: both;
   margin-bottom: 10px;
+}
+ */
+
+/* Flex */
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.information {
+  padding: 15px 0;
+  flex: 1;
+}
+
+.information-price-ship {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.shipping {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.details {
+  flex: 1;
 }
