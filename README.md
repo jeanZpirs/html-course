@@ -368,3 +368,11 @@ Para setear un `grid` se debe colocar el display en `grid` e indicar cuantas col
 Los unicos separadores, creadores de espacio entre los elementos son los `gap`, `column-gap` y `row-gap`.
 
 ![css-grid-code](imgs_readme/css-grid-code.png)
+
+### Conceptos de CSS Grid
+
+- Es un conjunto de propiedades para contruir diseños bidimensionales.
+
+- La idea detrás de CSS Grid es que podamos dividir un elemento contenedor en filas y columnas rellenandolas con sus elementos hijo.
+
+![propertys css grid](imgs_readme/grid-propertys.png)

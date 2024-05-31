@@ -33,35 +33,76 @@
       }
 
       .container--1 {
+        display: none;
+
         /* STARTER */
         font-family: sans-serif;
         background-color: #ddd;
         font-size: 30px;
         margin: 40px;
-
+        height: 500px;
         /* CSS GRID */
 
-        display: grid;
-        grid-template-columns: 200px 200px 100px 100px;
-        grid-template-rows: 300px 200px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 1fr;
+
         /* gap: 30px; */
         column-gap: 10px;
-        row-gap: 20px;
+        row-gap: 40px;
+      }
+      /* 
+      .el--8 {
+        grid-column: 2 / 3;
+        grid-row: 1;
       }
 
+      .el--2 {
+        grid-row: 2;
+        grid-column: 1 / -1;  
+        grid-column: 1 / 4; 
+        grid-column: 1 / span 4;
+      }
+
+      .el--6 {
+        grid-row: 3 / 6;
+      } */
+
       .container--2 {
-        display: none;
         /* STARTER */
         font-family: sans-serif;
         background-color: black;
         font-size: 40px;
-        margin: 100px;
+        margin: 40px;
 
-        width: 1000px;
+        width: 700px;
         height: 600px;
+        gap: 50px;
 
         /* CSS GRID */
+        display: grid;
+        grid-template-columns: 125px 200px 125px;
+        grid-template-rows: 250px 100px;
+
+        /* Alining tracks inside container distribute empty space*/
+        justify-content: center;
+        /* justify-content: space-between; */
+        align-content: center;
+
+        /* Alining items INSIDE Cells */
+        align-items: center;
+        justify-items: center;
       }
+
+      .el--3 {
+
+      }
+      
+      * {
+        margin: 0;
+      }
+       p{
+        font-size: 12px;
+       }
     </style>
   </head>
   <body>
@@ -72,17 +113,53 @@
       <div class="el el--4">(4) are</div>
       <div class="el el--5">(5) amazing</div>
       <div class="el el--6">(6) languages</div>
-      <div class="el el--7">(7) to</div>
+      <!-- <div class="el el--7">(7) to</div> -->
       <div class="el el--8">(8) learn</div>
     </div>
 
     <div class="container--2">
-      <div class="el el--1">(1)</div>
-      <div class="el el--3">(3)</div>
-      <div class="el el--4">(4)</div>
-      <div class="el el--5">(5)</div>
-      <div class="el el--6">(6)</div>
-      <div class="el el--7">(7)</div>
+      <div class="el el--1">
+        <h6>Hola</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
+          possimus delectus iste.
+        </p>
+      </div>
+      <div class="el el--3">
+        <h6>Hola</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
+          possimus delectus iste.
+        </p>
+      </div>
+      <div class="el el--4">
+        <h6>Hola</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
+          possimus delectus iste.
+        </p>
+      </div>
+      <div class="el el--5">
+        <h6>Hola</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
+          possimus delectus iste.
+        </p>
+      </div>
+      <div class="el el--6">
+        <h6>Hola</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
+          possimus delectus iste.
+        </p>
+      </div>
+      <div class="el el--7">
+        <h6>Hola</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
+          possimus delectus iste.
+        </p>
+      </div>
     </div>
   </body>
 </html>
