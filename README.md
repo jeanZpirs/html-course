@@ -376,3 +376,45 @@ Los unicos separadores, creadores de espacio entre los elementos son los `gap`, 
 - La idea detrás de CSS Grid es que podamos dividir un elemento contenedor en filas y columnas rellenandolas con sus elementos hijo.
 
 ![propertys css grid](imgs_readme/grid-propertys.png)
+
+# Reglas de diseño web
+
+## ¿Por qué es importante un buen diseño web?
+
+Es importante porque crea una buena impresión de la marca o producto, hace que los usuarios confíen, incrementa el valor percibido.
+
+<strong> Todos podemos aprender a diseñar una web. </strong>
+
+Para un buen diseño podemos tener en cuenta lo siguiente:
+
+1. Tipografía
+2. Colores
+3. Imagenes o ilustraciones
+4. Iconos
+5. Sombras
+6. Bordes de redondeo
+7. Espacios en blanco
+8. Jerarquia visual
+9. Experiencia de usuario.
+10. Componentes y Diseño
+
+## Tipografía
+
+La tipografía hace que sea bonito y agradable de leer un texto.
+
+Tips:
+
+- Usa solo tipografías populares e ir a lo seguro.
+- Está bien usar solo una tipografía.
+- Elegir correctamente la tipografía según la personalidad de la web.
+- Limitar tus elecciones, usar una escala de tamaños de fuente.
+- Para texto normal no usar menos de 16px y más de 32px.
+- Para texto largo usar 20px o más.
+- Para titulos podemos usar 50px a más y grosor de 600 a más.
+- Para cualquier texto no usar grosor menos de 400.
+- Usar menos de 75 carácteres por linea.
+- Para texto normal usar separacion de linea entre 1.5 y 2, para texto grande que sea menos de 1.5
+- Reducir el espacio entre letras de los titulos.
+- Experimentar con capitalizar los titulos pequeños.
+- No justificar el texto.
+- No centrar un bloque de texto grande.
