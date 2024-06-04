@@ -525,3 +525,32 @@ Jerarquía en componentes:
 - Enfatiza componentes importantes usando fondos, sombras y bordes.
 - Intenta enfatizar el componente A sobre el componente B.
 - Podemos enfatizar componentes como Testimoniales, secciones que llaman al acción, cards, formularios, tablas de precios, etc.
+
+## Experiencia de usuario UX/UI
+
+> El diseño no es solo como se ve o y como se siente, diseño es cómo funciona - Steve Jobs
+
+Interfaz de usuario.- Es la presentación visual de un producto. Es como la interfaz gráfica se ve y se siente.
+
+- Layout, personalidad, tipografías, etc.
+
+Experiencia de usuario.- Es todo la experiencia que se lleva el usuario mientras interactúa con el producto.
+
+Interfaz de usuario y la experiencia del usuario no pueden estar separadas ya que ambos se complementan para que el usuario esté satisfecho con el producto.
+
+Reglas de UX:
+
+1. No hagas diseños complicados, usa patrones que los usuarios ya conozcan.
+2. Haz que tu llamada a la acción como los botones sean elementos mas prominentes y que lleven texto descriptivo.
+3. Usa el color azul en texto y subrayado para solamente enlaces.
+4. Las animaciones deben ser rápidas.
+5. En formularios apila los campos en vertical.
+6. Ofrece buen feedback en lo que respecta a su fallas o cuando termine de realizar una acción.
+7. Coloca los botones donde se crea algo.
+
+Reglas de UX para contenido en la web:
+
+8. Usa texto descriptivo, palabras clave en tu pagina principal.
+9. Solo incluye información relevante, eficientemente.
+10. Usa palabras simples, no confundas con tecnicismo al usuario.
+11. Rompe los textos largos con subtitulos, imagenes, etc.
