@@ -461,13 +461,67 @@ Usando texto en las imagenes.
 - Usa un buen pack de iconos
 - Usa solo un paquete iconos, no combines paquetes porque tendrán diferente estilo y se verá inconsistente.
 - Usa iconos de formato .svg, podrán escalar y no se verán borrosos.
-- Ajustalos a la personalidad de tu web, dependiendo de la tipografia.
+- Ajusta los iconos a la personalidad de tu web, dependiendo de la tipografía.
 - Usa los iconos del mismo color que el texto o de colores para llamar la atención.
 - No confundas a tus usuarios poniendo iconos que no tienen algo que ver.
 
 ¿Cuando usar los iconos?
 
 - Usa los iconos para asistir visualmente al texto.
-- Usa los iconos para las caracteristicas del producto.
-- Usa iconos asociandolos a las acciones.
+- Usa los iconos para las características del producto.
+- Usa iconos asociándolos a las acciones.
 - Usa iconos como puntos de una lista.
+
+## Sombras
+
+- No es necesario usar sombras todo el tiempo, depende de la personalidad de tu web.
+- Usar las sombras en bajas dosis, no lo uses en todos los elementos.
+- No usar sombras muy oscuras.
+
+- Usar sombras pequeñas para elementos pequeños en el que debamos llamar la atención.
+- Sombras medianas para areas largas que deban llamar un poco mas la atención.
+- Sombras grandes para elementos que flotan sobre la interfaz principal de la web.
+- Experimenta con las sombras sobre interacciones con el mouse, como click a un botón.
+- Puedes experimentas con sombras del color del elemento.
+
+![Box shadow](imgs_readme/box_shadow.png)
+
+## Border Radius
+
+- Usar `border-radius` hará que tu diseño sea mas divertido.
+- Asegúrate que los bordes que apliques conjuguen con los demás elementos.
+- Puedes usar `border-radius` en imagenes, botones, iconos, secciones que llamen la atención y otros elementos.
+
+## Espacios en blanco
+
+La correcta cantidad de espacio en blanco hace que el diseño sea mas limpio, moderno y pulido.
+
+- Usa gran cantidad de espacio en blanco entre secciones de tu web.
+- Usa mucho espacio en blanco entre grupos de elementos.
+- Espacio en blanco entre elementos.
+- Dentro de grupo de elementos no uses linea que separen, mejor usa espacios en blanco.
+- Los elementos que son un conjunto unidos deben permanecer mas juntos.
+- Empieza agregando mucho y después vas reduciendo el espacio.
+- Si tiene texto o iconos grandes necesitan mas espacios.
+- Intenta usar una regla de espacios, asi podrás elegir limitadamente.
+
+## Jerarquía visual
+
+Se trata de establecer que elementos de nuestro diseño son los mas importantes, los que deben llamar la atención, definiendo un "camino" para los usuarios.
+
+Podemos combinar la posición, el tamaño, los colores, el espacio, bordes y sombras para crear una jerarquía visual entre elementos y componentes.
+
+- Posiciona los elementos mas importantes cerca de la parte superior de la página.
+- Las imagenes suelen llamar mucho la atención.
+- Los espacios en blanco crean separaciones, úsalos estratégicamente para enfatizar elementos.
+
+Jerarquía en los textos:
+
+- Para texto podemos usar tamaño, grosos, colores y espacios en blanco para indicar importancia.
+- Podemos enfatizar elementos como titulos, subtítulos, links, botones, puntos e iconos.
+
+Jerarquía en componentes:
+
+- Enfatiza componentes importantes usando fondos, sombras y bordes.
+- Intenta enfatizar el componente A sobre el componente B.
+- Podemos enfatizar componentes como Testimoniales, secciones que llaman al acción, cards, formularios, tablas de precios, etc.
