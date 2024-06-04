@@ -418,3 +418,56 @@ Tips:
 - Experimentar con capitalizar los titulos pequeños.
 - No justificar el texto.
 - No centrar un bloque de texto grande.
+
+## Colores
+
+¿Qué colores debemos elegir?
+
+- Utiliza colores que hagan buen match con las personalidad de la web.
+- Escoge los tonos adecuados, no escojas coores random.
+- Necesitas dos colores en tu paleta, el color principal y el color gris.
+- Con max experiencia podemos agregar el color de énfasis.
+- Para la variedad, creamos colores mas claros o oscuros de nuestra paleta de colores.
+
+¿Cuándo y dónde debemos usar los colores?
+
+- Usar el color principal para llamar la atención en los elementos importantes de la página.
+- Usa los colores para agregar enfasis o hacer que componentes o secciones enteras se destaquen.
+- Puedes intentar combinar imagenes y los colores.
+
+Usar colores en las tipografias
+
+- En fondos oscuros podemos intentar usar el mismo color pero de diferente tono (versiona clara) para el texto.
+- Usualmente los textos no deberían ser negro puro sino un tipo de gris oscuro.
+- No hacer el texto muy claro. (Accesibildad).
+
+## Imagenes e Ilustraciones
+
+- Hay diferentes tipos de imagenes: fotos del producto, fotos storytelling, ilustraciones y patrones.
+- Usa imagenes que brinden un mensaje o historia a tu web.
+- Preferiblemente imagenes originales.
+- Intenta resaltar las emociones de las personas en las imagenes.
+- Si la imagen es demasiado grande, si es necesario recorta la imagen.
+- Experimenta combinando fotos, ilustraciones y patrones.
+
+Usando texto en las imagenes.
+
+- Oscurecer o aclarar la imagen.
+- Colocar el texto en una posición neutral.
+- Poner el texto en una caja si es necesario.
+
+## Iconos
+
+- Usa un buen pack de iconos
+- Usa solo un paquete iconos, no combines paquetes porque tendrán diferente estilo y se verá inconsistente.
+- Usa iconos de formato .svg, podrán escalar y no se verán borrosos.
+- Ajustalos a la personalidad de tu web, dependiendo de la tipografia.
+- Usa los iconos del mismo color que el texto o de colores para llamar la atención.
+- No confundas a tus usuarios poniendo iconos que no tienen algo que ver.
+
+¿Cuando usar los iconos?
+
+- Usa los iconos para asistir visualmente al texto.
+- Usa los iconos para las caracteristicas del producto.
+- Usa iconos asociandolos a las acciones.
+- Usa iconos como puntos de una lista.
