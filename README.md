@@ -553,4 +553,12 @@ Reglas de UX para contenido en la web:
 8. Usa texto descriptivo, palabras clave en tu pagina principal.
 9. Solo incluye información relevante, eficientemente.
 10. Usa palabras simples, no confundas con tecnicismo al usuario.
-11. Rompe los textos largos con subtitulos, imagenes, etc.
+11. Rompe los textos largos con subtítulos, imagenes, etc.
+
+## Diseñando componentes y layouts
+
+De elementos -> componente -> layout -> Webpage
+
+1. Utilice componentes comunes para transmitir información de su sitio web.
+2. Combina componentes en el diseño para usar patrones comunes de diseño.
+3. Ensambla diferentes areas de diseño para la web final.
