@@ -562,3 +562,87 @@ De elementos -> componente -> layout -> Webpage
 1. Utilice componentes comunes para transmitir información de su sitio web.
 2. Combina componentes en el diseño para usar patrones comunes de diseño.
 3. Ensambla diferentes areas de diseño para la web final.
+
+## Los 7 pasos para desarrollar una web bien hecha.
+
+1. Define el proyecto
+
+- ¿Para quién será esta web? Para un cliente, una agencia o proyecto freelance.
+
+- ¿Para qué será este sitio web? Venta de productos, brindar información
+
+- ¿Cuál es tu publico objetivo? Lo mas específico posible.
+
+2. Planificar el proyecto
+
+- Planea y consigue el contenido de la web: texto, imagenes, videos, etc.
+
+- Aplicar jerarquía.
+
+- Basado en el contenido debes pensar que secciones necesita la web.
+
+- Elige la personalidad de tu web.
+
+3. Hacer un boceto e ideas de diseño y componentes.
+
+- Pensar que componentes y patrones de diseño necesitamos para nuestro contenido. Tener en cuenta que el contenido debe hacer al diseño y no al revés.
+
+- Haz bocetos de tus ideas, dibujas en papel y lápiz o con un programa de diseño.
+
+- Este proceso es iterativo, experimenta con diferentes componentes y diseños hasta que llegues a la primera solución.
+
+- No necesitas hacer bocetos de toda la web, en cierto puntos puedes saltar a HTML y CSS.
+
+4. Diseña y construye
+
+- Con los bocetos que hicimos podemos empezar a construir la web.
+
+- Teniendo el diseño y componentes que hiciste, necesitas diseñar su estilo visual.
+
+- Crea el diseño basado en la personalidad que elegiste.
+
+- Usa los diseños de la marca como texto, colores, fuentes, etc.
+
+5. Testea y optimiza.
+
+- Asegúrate que tu web funcione bien en todos los navegadores.
+- Prueba tu web en celulares.
+- Optimiza las imagenes en términos de tamaño de archivo.
+- Arregla problemas de accesibilidad.
+- Corre tu web en Lighthouse para saber los errores de rendimiento u otros problemas.
+- Piensa en Search Engine Optimization.
+
+6. Sube a internet tu web.
+
+- Si todo va bien entonces es momento de lanzar a internet tu página web.
+- Sube tu web a una plataforma de hosting.
+- Elige un buen dominio para tu sitio, uno memorable para tus usuarios.
+
+## Principios del diseño responsivo
+
+En una técnica de diseño para que la página se adapte a pantallas de cualquier posible tamaño, esto hará posible que nuestra web pueda ser usada desde todo tipo de dispositivos.
+
+Características de un diseño responsivo:
+
+1. Diseños fluidos
+
+- Permite que la página se adapte al viewport.
+- Usa %, eso permitirá adaptarse.
+- Usa `max-width` en vez de `width`.
+
+2. Unidades responsivas.
+
+- Usa `rem` en vez de `px` para longitudes largas.
+- Esto hará que sea más fácil escalar el diseño completo.
+- Un truco sería adaptar 1rem a 10px.
+
+3. Imágenes flexibles
+
+- Por defecto las imágenes no escalan automáticamente cuando cambiamos el viewport, debemos arreglarlo.
+- Siempre usa % para dimensionar una imagen, junto con la propiedad `max-width`.
+
+4. Media Queries
+
+- Permite crear breakpoints en cada tamaño del viewport en CSS.
+
+![mobile-desktop](imgs_readme/firstDevelopment.png)
