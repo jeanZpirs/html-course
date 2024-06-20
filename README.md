@@ -646,3 +646,19 @@ Características de un diseño responsivo:
 - Permite crear breakpoints en cada tamaño del viewport en CSS.
 
 ![mobile-desktop](imgs_readme/firstDevelopment.png)
+
+## Media Queries
+
+Son condiciones en las que según el tamaño de pantalla actual se aplicarán tales estilos.
+
+- Media quieres con max-width (Desktop First):
+  Aquí se aplica la condición si el ancho actual de la pantalla es <= a 1200px (por ejemplo) entonces se aplicarán los estilos si es verdadera.
+
+- Media queries con min-width (Mobile First):
+  Aquí se aplica la condición si el ancho actual de la pantalla es => a 600px (por ejemplo), entonces se aplicarán los estilos si es verdadero.
+
+Podemos tener varios media queries de max-width o min-width, es importante tener bien ordenados estos media queries, porque si modifican la misma propiedad se aplicará la ultima declaración css.
+
+## Eligiendo los breakpoints
+
+La mejor manera de elegir los breakpoints para los media queries es ver nuestro propio diseño y modificarla cuando se rompa, podremos evitar estar fijándonos en un dispositivo y se hará más fácil de mantener.
