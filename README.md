@@ -1,4 +1,4 @@
-# Curso de HTML y CSS.
+# Curso de HTML y CSS - 16/05/2024
 
 Aprenderemos a crear aplicaciones web con html y css.
 Este README servirá para tomar apuntes de cada lección.
@@ -662,3 +662,7 @@ Podemos tener varios media queries de max-width o min-width, es importante tener
 ## Eligiendo los breakpoints
 
 La mejor manera de elegir los breakpoints para los media queries es ver nuestro propio diseño y modificarla cuando se rompa, podremos evitar estar fijándonos en un dispositivo y se hará más fácil de mantener.
+
+## Fin del curso - 24/06/2024
+
+Se realizaron mucho proyectos, en el que subiré a Netlify y los pondré en mi portfolio para que puedan verlos.
